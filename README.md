@@ -59,6 +59,7 @@ pip install natsort kaggle
 ![模型訓練過程圖](image/training_result.jpg)
 
 此圖為音樂在模型預測過後產生的Confusion Matrix
+
 ![Confusion Matrix](image/prediction_result.jpg)
 
 以下圖為此程式之GUI及選擇音樂的過程
