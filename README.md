@@ -19,6 +19,7 @@ pip install transformers==4.37.2 accelerate torchaudio --quiet
 pip install scipy librosa soundfile tensorflow tf-keras natsort
 pip install natsort kaggle
 ```
+---
 
 ### 模型架構說明：CNN + Transformer 混合網路
 
