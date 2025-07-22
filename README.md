@@ -60,3 +60,4 @@ pip install natsort kaggle
 
 以下圖為此程式之GUI及選擇音樂的過程
 ![GUI](images/GUI.jpg)
+![GUI](images/螢幕擷取畫面 2025-07-22 231210.jpg)
