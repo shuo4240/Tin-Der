@@ -15,6 +15,6 @@
 ### 安裝要求
 請使用 **Python 3.8+** 的環境（建議使用 [Google Colab](https://colab.research.google.com/)），並安裝以下必要套件：
 ```bash
-pip install git+https://github.com/huggingface/transformers.git
 pip install transformers==4.37.2 accelerate torchaudio --quiet
 pip install scipy librosa soundfile tensorflow tf-keras natsort
+pip install natsort kaggle
