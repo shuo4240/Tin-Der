@@ -29,7 +29,7 @@ pip install natsort kaggle
 
 | 層級 | 類型與說明 |
 |------|------------|
-| Layer 1 | `Input(shape=(173, 89, 1)) |
+| Layer 1 | `Input(shape=(173, 89, 1))` |
 | Layer 2 | `Conv2D(8) + MaxPooling2D + BatchNormalization` |
 | Layer 3 | `Reshape((86, 352))`  |
 | Layer 4 | `MultiHeadAttention(num_heads=1, key_dim=16)`|
