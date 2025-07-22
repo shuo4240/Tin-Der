@@ -55,8 +55,11 @@ pip install natsort kaggle
  
 ---
 ## 程式畫面及訓練圖
-以下圖表呈現 CNN + Transformer 模型在訓練與驗證集上的損失(loss)與準確率(accuracy)變化情形
+此圖表呈現 CNN + Transformer 模型在訓練與驗證集上的損失(loss)與準確率(accuracy)變化情形
 ![模型訓練過程圖](image/training_result.jpg)
+
+此圖為音樂在模型預測過後產生的Confusion Matrix
+![Confusion Matrix](image/prediction_result.jpg)
 
 以下圖為此程式之GUI及選擇音樂的過程
 ![GUI](images/GUI.jpg)
