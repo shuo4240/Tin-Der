@@ -40,4 +40,3 @@ pip install natsort kaggle
 | Layer 8 | `Dense(32) + Dropout(0.5)`|
 | Layer 9 | `Dense(10, activation='softmax')`|
 
-📌 最終模型包含 CNN 的局部感知力與 Transformer 的全局依賴能力，特別適合處理結構複雜的音訊資料。
