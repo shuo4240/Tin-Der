@@ -40,3 +40,8 @@ pip install natsort kaggle
 | Layer 8 | `Dense(32) + Dropout(0.5)`|
 | Layer 9 | `Dense(10, activation='softmax')`|
 
+
+### GUI介面設計
+**首頁**：顯示封面圖與兩個按鈕
+  - `Start 🎶`：開始互動式選曲流程  
+  - `Information ℹ️`：顯示訓練結果與分類準確率圖片  
