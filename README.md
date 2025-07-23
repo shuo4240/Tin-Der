@@ -21,14 +21,14 @@ pip install natsort kaggle
 ```
 ---
 
-### 模型架構說明：CNN + Transformer 混合網路
+### 模型架構：CNN + Transformer 
 
 - **CNN**：提取音訊的局部特徵
 - **Transformer**：補足 CNN 缺乏長期記憶的能力（時間序列記憶）
 
 輸入格式：`(batch_size, 173, 89, 1)`
 
-| 層級 | 類型與說明 |
+| 層級 | 說明 |
 |------|------------|
 | Layer 1 | `Input(shape=(173, 89, 1))` |
 | Layer 2 | `Conv2D(8) + MaxPooling2D + BatchNormalization` |
